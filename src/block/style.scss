@@ -1,0 +1,27 @@
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+
+.wp-block-cgb-block-sanjose-panama-meetup  {
+  background-color: transparent;
+  margin: 0 auto;
+  max-width: 740px;
+  padding: 2rem;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: center;
+
+  & > div {
+    text-align: center;
+  }
+
+  .card-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    filter: drop-shadow(0 2px 4px transparentize(#0f0f0f, 0.75));
+  }
+}
